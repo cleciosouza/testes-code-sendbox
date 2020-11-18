@@ -1,0 +1,661 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+  /* background: url(../img/bg-elements.png) 46% 16% no-repeat !important; */
+}
+section {
+  /* margin-top: 2em !important;
+    margin-bottom: 12em; */
+}
+.quebra {
+  color: #22376b !important;
+  word-wrap: break-word;
+}
+.card-edit .card-body .card-text {
+  font-size: 16px !important;
+}
+.card-edit .card-body .card-title {
+  font-size: 20px !important;
+}
+.color-yellow {
+  color: #fdd100;
+}
+
+h2 {
+  font-size: 38px !important;
+}
+
+h3 {
+  font-size: 28px !important;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+header {
+  background-image: url(../img/cifrao-cut.png) left bottom no-repeat !important;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.margin-2,
+.qual-preocupacao h4,
+.qual-preocupacao p,
+.qual-preocupacao .btn,
+.logos-oxford-exchange .btn {
+  margin-top: 2rem;
+}
+
+.bg-base {
+  background-color: #22376b;
+}
+
+.navbar-brand img {
+  max-width: 350px;
+}
+
+.inline {
+  display: inline;
+}
+
+.menu-top {
+  color: #a5a5a5;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.menu-top .account {
+  margin-right: 1em;
+}
+
+.menu-top .account a {
+  text-decoration: none;
+}
+
+.menu-top a {
+  color: #a5a5a5;
+}
+
+.flag-us,
+.icn-custom {
+  width: 22px;
+}
+
+.select-lang {
+  margin-left: 1em;
+}
+
+.select-lang:hover {
+  text-decoration: none;
+}
+
+.chamada-header,
+.bkock-custom {
+  color: #22376b;
+  text-align: right;
+}
+
+.chamada-header h2,
+.bkock-custom h2 {
+  font-size: 60px;
+}
+
+.chamada-header h2 span,
+.bkock-custom h2 span {
+  font-size: 53px;
+}
+
+.btn-custom {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#08fafe),
+    to(#05b3fb)
+  );
+  background-image: linear-gradient(to right, #08fafe, #05b3fb);
+  color: white;
+  vertical-align: middle;
+  border-radius: 0.5em;
+  border: 0;
+  height: 3em;
+  text-decoration: none;
+  padding: 0.8rem 2.2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-custom:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: white;
+  text-decoration: none;
+}
+
+.calculator img {
+  width: 115%;
+  position: relative;
+  top: -125px;
+}
+
+.bkock-custom {
+  margin-right: 0;
+  margin: 5em 0;
+  padding-top: 10rem;
+}
+
+.bkock-custom h2 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.bkock-custom h3 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.remessas {
+  padding: 0 0;
+}
+
+.remessas span {
+  /* color: #FDD100; */
+  color: #f9ab2c;
+}
+
+.remessas .chamada-receba {
+  margin-bottom: 0;
+}
+
+.box-remessas {
+  background-color: #f8fbfe;
+}
+
+.card-custom {
+  margin: 1em;
+  padding: 1em;
+  height: 350px;
+  border-radius: 1em;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.2),
+    0 37px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.2),
+    0 37px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-custom .img-card-custom-2 {
+  width: 120px;
+}
+
+.card-custom .img-card-custom {
+  width: 180px;
+}
+
+.card-custom .title-card-custom {
+  margin-top: 1em;
+}
+
+.card-edit {
+  padding: 10px;
+}
+
+.card-edit .card-interno {
+  padding: 1em;
+  min-height: 460px;
+  border-radius: 1em;
+  -webkit-box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.2),
+    0 37px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.2),
+    0 37px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #22376b;
+  text-align: left;
+}
+
+.card-edit .card-body .card-text {
+  font-size: 18px;
+}
+
+.border-yellow {
+  border: 5px solid yellow;
+}
+
+.border-yellow .icn-promocional {
+  height: 125px;
+  position: absolute;
+  top: -60px;
+  right: -33px;
+  z-index: 100;
+}
+
+.como-enviar {
+  text-align: center;
+  color: #22376b;
+  margin-top: 4rem;
+}
+
+.como-enviar h2 {
+  font-size: 2.5em;
+}
+
+.como-enviar .img-icn-flag {
+  width: 50px;
+}
+
+.como-enviar .cincopassos {
+  width: 90% !important;
+}
+
+.qual-preocupacao {
+  margin: 200px 0;
+  color: #22376b;
+}
+
+.qual-preocupacao h2 {
+  font-size: 4rem;
+}
+
+.qual-preocupacao h4 {
+  font-size: 1.5rem;
+}
+
+.qual-preocupacao span {
+  color: #f9ab2c;
+}
+
+.solucao h2 {
+  font-size: 3rem;
+}
+
+/* .bg-elipses {
+  background: url(../img/elipse-group.png) left bottom no-repeat, url(../img/elipse-aqua.png) right bottom no-repeat !important;
+} */
+
+.economize .economize-logo {
+  width: 100px;
+}
+
+.bg-solucao {
+  background: url(../img/mundo_claro.png) center 35% no-repeat !important;
+}
+
+.circle-blue-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22%;
+}
+
+.circle-yellow-img {
+  position: absolute;
+  bottom: 270px;
+  left: 0;
+  width: 24%;
+}
+
+.logos-oxford-exchange {
+  color: #22376b;
+}
+
+.logos-oxford-exchange .box-logo {
+  text-align: center;
+}
+
+.logos-oxford-exchange img {
+  height: 65px;
+}
+
+.nav-footer {
+  margin-top: 8em;
+  text-align: center;
+  background-color: #22376b !important;
+  color: #fff;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: #fff;
+  display: contents;
+}
+
+.rocket-mobile {
+  display: none;
+}
+
+.btn-custom {
+  text-align: center;
+}
+
+.cifrao {
+  width: 30%;
+  z-index: 0;
+  position: absolute;
+  top: 12rem;
+  left: -126px;
+}
+
+.logo-ox-bottom {
+  position: absolute;
+  left: 220px;
+  width: 400px;
+}
+:focus {
+  outline: -webkit-focus-ring-color 0 !important;
+}
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=custom.css.map */
+
+html {
+  line-height: 1.5;
+}
+.contaIdioma .menu-top {
+  color: #a5a5a5;
+  vertical-align: middle;
+  text-align: right;
+  margin-top: 0;
+  font-size: 13px;
+}
+.espacoVazio {
+  grid-area: espaco-vazio;
+  height: 30px;
+}
+.contaIdioma {
+  grid-area: conta-idioma;
+  height: 30px;
+}
+.logoOx4pay {
+  grid-area: logo;
+  height: 100px;
+}
+.logoOx4pay img {
+  width: 311px;
+  float: left;
+}
+
+.calculadora {
+  grid-area: calculadora;
+  height: 600px;
+  width: 560px;
+}
+.textoDestaque {
+  grid-area: texto-destaque;
+  height: 450px;
+  /* width: 553px; */
+}
+.textoDestaque h2 {
+  font-size: 40px !important;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "espaco-vazio espaco-vazio espaco-vazio espaco-vazio espaco-vazio conta-idioma "
+    "logo logo logo calculadora calculadora calculadora "
+    "texto-destaque texto-destaque texto-destaque calculadora calculadora calculadora";
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 0 0;
+  font-size: 14px;
+}
+.calculadora iframe.calculator {
+  width: 100% !important;
+  height: 720px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  /* padding: 72px 0 0 10px */
+  overflow: hidden;
+}
+@media screen and (max-width: 1366px) {
+  .card-edit .card-interno {
+    min-height: 410px;
+  }
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 90%;
+    text-align: center;
+  }
+  .container-solucao .bkock-custom {
+    margin-right: 0;
+    margin: 1em 0;
+    padding-top: 8rem;
+  }
+  .circle-yellow-img {
+    width: 20%;
+  }
+  .circle-yellow-img {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 1235px) {
+  .card-edit .card-interno {
+    min-height: 536px !important;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 780px) {
+  .grid-container {
+    display: block;
+    grid-template-areas:
+      "conta-idioma conta-idioma conta-idioma conta-idioma"
+      "logo logo logo logo"
+      "calculadora calculadora calculadora calculadora"
+      "texto-destaque texto-destaque texto-destaque texto-destaque";
+    grid-gap: 10px;
+    padding: 0;
+  }
+
+  .textoDestaque h2 {
+    font-size: 40px !important;
+  }
+  .textoDestaque h3 {
+    text-align: center !important;
+  }
+  .btn-header {
+    float: none !important;
+  }
+  .logoOx4pay,
+  .menu-top {
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline; */
+    text-align: center !important;
+  }
+  .cifrao {
+    display: none;
+  }
+  .calculadora {
+    /* transform: scale(.9); */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .calculadora iframe.calculator {
+    transform: scale(0.9);
+    /* width: 100vw;  */
+    /* margin: 0 0 0 -28px !important; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-ox-bottom {
+    position: relative;
+    left: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .logoOx4pay img {
+    width: 311px;
+    float: none;
+    height: 100px;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  /* .cifrao {
+    width: 55%;
+    z-index: -1;
+    position: absolute;
+    top: 30rem;
+    left: -35px;
+  } */
+
+  .bg-elipses {
+    background: url(../img/elipse-group.png) -89% 89% no-repeat,
+      url(../img/elipse-aqua.png) right 83% no-repeat !important;
+  }
+  .qual-preocupacao,
+  .como-enviar {
+    /* margin-bottom: 20px !important; */
+    margin: 0 !important;
+  }
+  .logo {
+    display: table;
+    margin: 50px auto 0 auto;
+  }
+  /* iframe {
+    width: 100% !important;
+  } */
+  .chamada-header,
+  .bkock-custom {
+    text-align: center;
+  }
+  .chamada-header h2,
+  .bkock-custom h2 {
+    font-size: 60px;
+  }
+  .chamada-header h2 span,
+  .bkock-custom h2 span {
+    font-size: 53px;
+  }
+  .chamada-header .header-subtitle,
+  .bkock-custom .header-subtitle {
+    text-align: right;
+  }
+  .bkock-custom {
+    padding: 1rem;
+  }
+  .bkock-custom h2 {
+    text-align: center;
+  }
+  .cincopassos {
+    display: none;
+  }
+  .rocket-mobile {
+    display: block;
+    width: 100%;
+  }
+  .qual-preocupacao {
+    text-align: center;
+  }
+  .qual-preocupacao img {
+    width: 100%;
+  }
+  .container-solucao {
+    background: none !important;
+    margin-top: 50px !important;
+  }
+  .btn-custom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-edit {
+    margin-top: 30px;
+  }
+  .card-edit .card-interno .icn-promocional {
+    height: 164px !important;
+    position: absolute;
+    top: -44px;
+    right: -4px;
+  }
+  .card-edit .card-interno {
+    min-height: 380px !important;
+  }
+  .card-edit .card-title {
+    font-size: 2em;
+  }
+  .btn-header {
+    float: right;
+  }
+  .bg-solucao .logos-oxford-exchange .box-logo {
+    margin-top: 30px;
+  }
+  .circle-yellow-img {
+    display: none;
+  }
+  .remessas {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  .textoDestaque {
+    /* height: auto; */
+    /* position: inherit !important; */
+    position: relative;
+    /* top: -40pxs; */
+  }
+  .textoDestaque h2,
+  h2 {
+    font-size: 26px !important;
+  }
+  .textoDestaque h3,
+  h3 {
+    font-size: 16px !important;
+  }
+  header {
+    margin-bottom: 20px !important;
+  }
+
+  .box-logo img {
+    height: 45px !important;
+  }
+  .container-solucao {
+    padding-top: 2rem;
+  }
+  .qual-preocupacao h4 {
+    font-size: 16px !important;
+  }
+  .espacoVazio {
+    display: none;
+  }
+
+  .chamada-header h2 {
+    text-align: center !important;
+  }
+  .calculadora iframe.calculator {
+    height: 590px !important;
+  }
+  .calculadora {
+    height: 480px;
+  }
+}
